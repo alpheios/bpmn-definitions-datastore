@@ -1,0 +1,8 @@
+<translations>
+  <lang id="de_DE">
+    <t id="description-bpmn-definitions-datastore">Speichern Sie Ihre BPMN Diagramme in einer zentralen und performanten XML Datenbank. </t>
+  </lang>
+  <lang id="en_US">
+    <t id="description-bpmn-definitions-datastore">Save all your BPMN process diagrams in on central and fast XML database.</t>
+  </lang>
+</translations>
