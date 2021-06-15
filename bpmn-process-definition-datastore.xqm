@@ -27,7 +27,6 @@ declare variable $_:ns := namespace-uri(<_:ns/>);
 
 declare 
   %plugin:provide-default("bpmn/process-definitions")
-  %plugin:provide-default("definitions")
 function _:get-process-definitions(
 ) as element(bpmn:definitions)* {
   resource-process-definitions:get-process-definitions()
@@ -35,7 +34,6 @@ function _:get-process-definitions(
 
 declare 
   %plugin:provide-default("bpmn/process-definition")
-  %plugin:provide-default("definition")
 function _:get-process-definition(
     $ProcessDefinitionID as xs:string
 ) as element(bpmn:definitions)? {
